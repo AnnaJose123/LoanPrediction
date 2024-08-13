@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Prediction</title>
+    <link rel="stylesheet" href="../static/css/s1.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Loan Prediction</h2>
+        <form action="/predict" method="post">
+
+            <label for="Gender">Gender:</label>
+            <input type="text"  id="Gender" name="Gender"  required>
+
+            <label for="Married">Married:</label>
+            <input type="text"  id="Married" name="Married"  required>
+
+            <label for="Dependents">Dependents:</label>
+            <input type="text"  id="Dependents" name="Dependents"  required>
+
+            <label for="Education">Education:</label>
+            <input type="text"  id="Education" name="Education"  required>
+
+            <label for="Self_Employed">Self_Employed:</label>
+            <input type="text"  id="Self_Employed" name="Self_Employed"  required>
+
+
+            <label for="ApplicantIncome">ApplicantIncome:</label>
+            <input type="text"  id="ApplicantIncome" name="ApplicantIncome"  required>
+
+            <label for="CoapplicantIncome">CoapplicantIncome:</label>
+            <input type="text"  id="CoapplicantIncome" name="CoapplicantIncome"  required>
+
+            <label for="LoanAmount">LoanAmount:</label>
+            <input type="text"  id="LoanAmount" name="LoanAmount"  required>
+
+            <label for="Loan_Amount_Term">Loan_Amount_Term:</label>
+            <input type="text"  id="Loan_Amount_Term" name="Loan_Amount_Term"  required>
+
+            <label for="Credit_History">Credit_History:</label>
+            <input type="text"  id="Credit_History" name="Credit_History"  required>
+
+            <label for="Property_Area">Property_Area:</label>
+            <input type="text"  id="Property_Area" name="Property_Area"  required>
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
